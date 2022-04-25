@@ -1,0 +1,5 @@
+.vscode
+bin
+obj
+appsettings.json
+bin\Debug\net5.0\appsettings.json
