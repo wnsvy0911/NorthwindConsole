@@ -262,7 +262,7 @@ namespace NorthwindConsole
                     Console.WriteLine("2) Add Category");
                     Console.WriteLine("3) Update Category");
                     Console.WriteLine("4) Display Category and related products");
-                    Console.WriteLine("5) Display all Categories and their related products");
+                    Console.WriteLine("5) Display All Categories and their related products");
                     Console.WriteLine("6) Display All Categories and Active Products");
                     Console.WriteLine("7) Delete Category");
                     Console.WriteLine("\"back\" to go to main menu");
