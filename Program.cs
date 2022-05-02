@@ -27,7 +27,7 @@ namespace NorthwindConsole
                     Console.WriteLine("\"q\" to quit");
                     choice = Console.ReadLine();
                     Console.Clear();
-                    logger.Info($"Option {choice} selected");
+                    logger.Info($"Option \"{choice}\" selected");
                     if (choice == "1")
                     {
                     CategoryController.manageCategoryWorkflows();

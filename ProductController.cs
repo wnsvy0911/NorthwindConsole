@@ -216,12 +216,12 @@ namespace NorthwindConsole
                     Console.WriteLine("3) Get Product");
                     Console.WriteLine("4) Update Product");
                     Console.WriteLine("5) Delete Product");
-                    Console.WriteLine("\"back\" to go to main menu");
+                    Console.WriteLine("\"b\" to Go Back to Main Menu");
 
 
                     choice = Console.ReadLine();
                     Console.Clear();
-                    logger.Info($"Option {choice} selected");
+                    logger.Info($"Option \"{choice}\" selected");
 
                     if (choice == "1")
                     {
@@ -244,7 +244,7 @@ namespace NorthwindConsole
                         deleteProduct();
                     }
 
-                } while (choice.ToLower() != "back");
+                } while (choice.ToLower() != "b");
 
             }
             catch (Exception ex)
